@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Crown Game</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="balance">Balance: %d</string>
+    <string name="total_win">Total  win: %d</string>
+    <string name="bet">Bet: %d</string>
+    <string name="spin">Spin</string>
+    <string name="privacy_policy_text">"Text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+         text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text,
+     text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text."</string>
+    <string name="nothing_to_say">""</string>
+    <string name="slot_element">Slot element</string>
+    <string name="alert_message">The app requests permission to collect data for analytics.</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="balance_to_low">Your balance is too low. Do you want to set it to 10000?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>

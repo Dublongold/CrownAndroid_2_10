@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:tag="background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/nothing_to_say"
+        app:srcCompat="@drawable/bg"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/default_padding">
+
+        <ImageButton
+            android:id="@+id/privacyPolicyButton"
+            android:layout_width="@dimen/default_button_size"
+            android:layout_height="@dimen/default_button_size"
+            android:background="@drawable/default_button_ripple"
+            android:layout_marginTop="@dimen/button_margin_top"
+            android:contentDescription="@string/nothing_to_say"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_privacy" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/slots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="@dimen/big_button_size"
+        android:layout_height="@dimen/big_button_size"
+        android:layout_marginTop="@dimen/play_button_margin_top"
+        android:background="@drawable/big_button_ripple"
+        android:contentDescription="@string/nothing_to_say"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintStart_toStartOf="@+id/include"
+        app:layout_constraintTop_toTopOf="@+id/include"
+        app:srcCompat="@drawable/icon_play" />
+</androidx.constraintlayout.widget.ConstraintLayout>

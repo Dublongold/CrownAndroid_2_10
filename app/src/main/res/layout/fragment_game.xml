@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/nothing_to_say"
+        android:scaleType="fitXY"
+        android:tag="background"
+        app:srcCompat="@drawable/bg" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="@dimen/default_button_size"
+        android:layout_height="@dimen/default_button_size"
+        android:layout_marginTop="@dimen/button_margin_top"
+        android:layout_marginStart="@dimen/game_button_margin_start"
+        android:background="@drawable/default_button_ripple"
+        android:contentDescription="@string/nothing_to_say"
+        app:srcCompat="@drawable/icon_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/slots"
+        android:layout_marginTop="@dimen/game_content_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+
+    <LinearLayout
+        android:id="@+id/balanceAndTotalWin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/default_padding"
+        android:layout_marginTop="@dimen/default_margin"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <TextView
+            android:id="@+id/balanceInfo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/info_height"
+            android:layout_marginEnd="@dimen/default_radius"
+            android:layout_weight="1"
+            android:background="@drawable/info_bg"
+            android:gravity="center"
+            android:text="@string/balance" />
+
+        <TextView
+            android:id="@+id/totalWinInfo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/info_height"
+            android:layout_marginStart="@dimen/default_radius"
+            android:layout_weight="1"
+            android:background="@drawable/info_bg"
+            android:gravity="center"
+            android:text="@string/total_win" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/default_padding"
+        android:layout_marginTop="@dimen/default_margin"
+        app:layout_constraintEnd_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/balanceAndTotalWin">
+
+        <ImageButton
+            android:id="@+id/minusButton"
+            android:layout_width="@dimen/default_button_size"
+            android:layout_height="@dimen/default_button_size"
+            android:background="@drawable/default_button_ripple"
+            android:contentDescription="@string/nothing_to_say"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_minus" />
+
+        <TextView
+            android:id="@+id/betInfo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/info_height"
+            android:layout_marginHorizontal="@dimen/default_radius"
+            android:layout_weight="1"
+            android:background="@drawable/info_bg"
+            android:gravity="center"
+            android:text="@string/bet" />
+
+        <ImageButton
+            android:id="@+id/plusButton"
+            android:layout_width="@dimen/default_button_size"
+            android:layout_height="@dimen/default_button_size"
+            android:background="@drawable/default_button_ripple"
+            android:contentDescription="@string/nothing_to_say"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon_plus" />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/spinButton"
+        android:layout_width="@dimen/big_button_size"
+        android:layout_height="@dimen/big_button_size"
+        android:layout_marginTop="@dimen/game_content_margin"
+        android:background="@drawable/big_button_ripple"
+        android:contentDescription="@string/nothing_to_say"
+        android:text="@string/spin"
+        android:textSize="@dimen/spin_button_text_size"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/dark_silver"
+        app:layout_constraintEnd_toEndOf="@+id/include"
+        app:layout_constraintStart_toStartOf="@+id/include"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
