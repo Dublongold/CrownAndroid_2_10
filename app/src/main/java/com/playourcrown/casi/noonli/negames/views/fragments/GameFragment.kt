@@ -1,8 +1,7 @@
-package com.game.crownandroid_2_10.views.fragments
+package com.playourcrown.casi.noonli.negames.views.fragments
 
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,10 +17,10 @@ import androidx.core.view.allViews
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.game.crownandroid_2_10.R
-import com.game.crownandroid_2_10.extentions.FragmentDestination
-import com.game.crownandroid_2_10.extentions.navigate
-import com.game.crownandroid_2_10.util.FragmentViewBuilder
+import com.playourcrown.casi.noonli.negames.R
+import com.playourcrown.casi.noonli.negames.extentions.FragmentDestination
+import com.playourcrown.casi.noonli.negames.extentions.navigate
+import com.playourcrown.casi.noonli.negames.util.FragmentViewBuilder
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -30,7 +29,7 @@ class GameFragment: Fragment() {
     private val fragmentLogic: GameFragmentLogic by viewModels()
 
     private var balance: Int
-        get() = getSharedPreferences().getInt("balance", 0)
+        get() = getSharedPreferences().getInt("balance", 10_000)
         set(value) {
             getSharedPreferences().edit { putInt("balance", value) }
         }

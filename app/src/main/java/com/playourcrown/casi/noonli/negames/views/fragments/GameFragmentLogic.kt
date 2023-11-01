@@ -1,14 +1,11 @@
-package com.game.crownandroid_2_10.views.fragments
+package com.playourcrown.casi.noonli.negames.views.fragments
 
-import android.util.Log
 import android.widget.ImageView
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
-import com.game.crownandroid_2_10.R
+import com.playourcrown.casi.noonli.negames.R
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import kotlin.random.Random
 
 class GameFragmentLogic: ViewModel() {

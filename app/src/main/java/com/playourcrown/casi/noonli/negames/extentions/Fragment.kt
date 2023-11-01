@@ -1,10 +1,10 @@
-package com.game.crownandroid_2_10.extentions
+package com.playourcrown.casi.noonli.negames.extentions
 
 import androidx.fragment.app.Fragment
-import com.game.crownandroid_2_10.R
-import com.game.crownandroid_2_10.views.fragments.GameFragment
-import com.game.crownandroid_2_10.views.fragments.MainFragment
-import com.game.crownandroid_2_10.views.fragments.PrivacyPolicyFragment
+import com.playourcrown.casi.noonli.negames.R
+import com.playourcrown.casi.noonli.negames.views.fragments.GameFragment
+import com.playourcrown.casi.noonli.negames.views.fragments.MainFragment
+import com.playourcrown.casi.noonli.negames.views.fragments.PrivacyPolicyFragment
 
 fun Fragment.navigate(destination: FragmentDestination) {
     when(destination) {

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Crown Game</string>
+    <string name="app_name">Your Crown</string>
     <string name="privacy_policy_title">Privacy Policy</string>
     <string name="balance">Balance: %d</string>
     <string name="total_win">Total  win: %d</string>

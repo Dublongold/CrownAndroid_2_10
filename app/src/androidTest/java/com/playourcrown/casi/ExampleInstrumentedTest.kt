@@ -1,4 +1,4 @@
-package com.game.crownandroid_2_10
+package com.playourcrown.casi
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

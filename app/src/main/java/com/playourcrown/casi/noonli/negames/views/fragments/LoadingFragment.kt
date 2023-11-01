@@ -1,7 +1,6 @@
-package com.game.crownandroid_2_10.views.fragments
+package com.playourcrown.casi.noonli.negames.views.fragments
 
 import android.content.DialogInterface
-import android.content.pm.ActivityInfo
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -14,16 +13,14 @@ import androidx.core.content.edit
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
-import androidx.lifecycle.repeatOnLifecycle
-import com.game.crownandroid_2_10.R
-import com.game.crownandroid_2_10.extentions.FragmentDestination
-import com.game.crownandroid_2_10.extentions.navigate
-import com.game.crownandroid_2_10.extentions.openWebView
-import com.game.crownandroid_2_10.util.FirebaseHelper
-import com.game.crownandroid_2_10.util.FragmentViewBuilder
+import com.playourcrown.casi.noonli.negames.R
+import com.playourcrown.casi.noonli.negames.extentions.FragmentDestination
+import com.playourcrown.casi.noonli.negames.extentions.navigate
+import com.playourcrown.casi.noonli.negames.extentions.openWebView
+import com.playourcrown.casi.noonli.negames.util.FirebaseHelper
+import com.playourcrown.casi.noonli.negames.util.FragmentViewBuilder
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
-import kotlin.time.Duration
 
 class LoadingFragment: Fragment() {
 

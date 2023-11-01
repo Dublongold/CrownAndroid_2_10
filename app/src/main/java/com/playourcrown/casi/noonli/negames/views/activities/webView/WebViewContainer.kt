@@ -1,4 +1,4 @@
-package com.game.crownandroid_2_10.views.activities.webView
+package com.playourcrown.casi.noonli.negames.views.activities.webView
 
 import android.os.Bundle
 import android.util.Log

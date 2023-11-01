@@ -1,4 +1,4 @@
-package com.game.crownandroid_2_10
+package com.playourcrown.casi
 
 import org.junit.Test
 

@@ -1,19 +1,18 @@
-package com.game.crownandroid_2_10.views.fragments
+package com.playourcrown.casi.noonli.negames.views.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.platform.ComposeView
 import androidx.compose.ui.platform.ViewCompositionStrategy
 import androidx.fragment.app.Fragment
-import com.game.crownandroid_2_10.R
-import com.game.crownandroid_2_10.extentions.FragmentDestination
-import com.game.crownandroid_2_10.extentions.navigate
-import com.game.crownandroid_2_10.util.FragmentViewBuilder
-import com.game.crownandroid_2_10.views.custom.PrivacyPolicyText
+import com.playourcrown.casi.noonli.negames.R
+import com.playourcrown.casi.noonli.negames.extentions.FragmentDestination
+import com.playourcrown.casi.noonli.negames.extentions.navigate
+import com.playourcrown.casi.noonli.negames.util.FragmentViewBuilder
+import com.playourcrown.casi.noonli.negames.views.custom.PrivacyPolicyText
 
 class PrivacyPolicyFragment: Fragment() {
 

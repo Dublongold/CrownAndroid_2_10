@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "979052901216",
-    "project_id": "bitgames-ffde7",
-    "storage_bucket": "bitgames-ffde7.appspot.com"
+    "project_number": "642407674092",
+    "project_id": "your-crown",
+    "storage_bucket": "your-crown.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:979052901216:android:101805a0fd340386dce405",
+        "mobilesdk_app_id": "1:642407674092:android:ac3f111bec23644c5b75c9",
         "android_client_info": {
-          "package_name": "com.game.crownandroid_2_10"
+          "package_name": "com.playourcrown.casi.noonli.negames"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCPPwpdt0mmHmbZF8oQn36A2o7Qmu87r8Y"
+          "current_key": "AIzaSyAgNz273I_gwmfwKAq2jXQROUM9rTnL5LA"
         }
       ],
       "services": {

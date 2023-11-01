@@ -1,4 +1,4 @@
-package com.game.crownandroid_2_10.extentions
+package com.playourcrown.casi.noonli.negames.extentions
 
 import androidx.activity.result.ActivityResult
 

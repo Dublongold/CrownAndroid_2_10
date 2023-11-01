@@ -1,9 +1,8 @@
-package com.game.crownandroid_2_10.views.activities.webView
+package com.playourcrown.casi.noonli.negames.views.activities.webView
 
 import android.content.Intent
 import android.net.Uri
 import android.util.Log
-import android.view.View
 import android.webkit.GeolocationPermissions
 import android.webkit.JsResult
 import android.webkit.SafeBrowsingResponse
@@ -13,7 +12,7 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.activity.result.ActivityResultLauncher
-import com.game.crownandroid_2_10.views.activities.WebActivity
+import com.playourcrown.casi.noonli.negames.views.activities.WebActivity
 
 object ClientsProvider {
 

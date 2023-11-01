@@ -1,4 +1,4 @@
-package com.game.crownandroid_2_10.util
+package com.playourcrown.casi.noonli.negames.util
 
 import android.content.Context
 import android.util.Log

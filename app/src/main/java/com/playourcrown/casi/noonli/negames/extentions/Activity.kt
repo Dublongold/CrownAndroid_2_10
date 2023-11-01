@@ -1,8 +1,8 @@
-package com.game.crownandroid_2_10.extentions
+package com.playourcrown.casi.noonli.negames.extentions
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import com.game.crownandroid_2_10.views.activities.WebActivity
+import com.playourcrown.casi.noonli.negames.views.activities.WebActivity
 
 fun AppCompatActivity.openWebView() {
     startActivity(makeActivity(WebActivity::class.java))

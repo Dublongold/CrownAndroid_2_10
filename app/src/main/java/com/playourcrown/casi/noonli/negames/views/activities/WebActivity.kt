@@ -1,4 +1,4 @@
-package com.game.crownandroid_2_10.views.activities
+package com.playourcrown.casi.noonli.negames.views.activities
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -16,11 +16,11 @@ import android.webkit.WebSettings
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
-import com.game.crownandroid_2_10.R
-import com.game.crownandroid_2_10.extentions.validResultCode
-import com.game.crownandroid_2_10.util.FirebaseHelper
-import com.game.crownandroid_2_10.views.activities.webView.ClientsProvider
-import com.game.crownandroid_2_10.views.activities.webView.WebViewContainer
+import com.playourcrown.casi.noonli.negames.R
+import com.playourcrown.casi.noonli.negames.extentions.validResultCode
+import com.playourcrown.casi.noonli.negames.util.FirebaseHelper
+import com.playourcrown.casi.noonli.negames.views.activities.webView.ClientsProvider
+import com.playourcrown.casi.noonli.negames.views.activities.webView.WebViewContainer
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.io.File

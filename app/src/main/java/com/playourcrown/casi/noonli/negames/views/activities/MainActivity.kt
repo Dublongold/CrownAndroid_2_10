@@ -1,16 +1,14 @@
-package com.game.crownandroid_2_10.views.activities
+package com.playourcrown.casi.noonli.negames.views.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 import androidx.activity.OnBackPressedCallback
-import com.game.crownandroid_2_10.R
-import com.game.crownandroid_2_10.extentions.FragmentDestination
-import com.game.crownandroid_2_10.extentions.navigate
-import com.game.crownandroid_2_10.views.fragments.GameFragment
-import com.game.crownandroid_2_10.views.fragments.LoadingFragment
-import com.game.crownandroid_2_10.views.fragments.MainFragment
-import com.game.crownandroid_2_10.views.fragments.PrivacyPolicyFragment
+import com.playourcrown.casi.noonli.negames.R
+import com.playourcrown.casi.noonli.negames.extentions.FragmentDestination
+import com.playourcrown.casi.noonli.negames.extentions.navigate
+import com.playourcrown.casi.noonli.negames.views.fragments.LoadingFragment
+import com.playourcrown.casi.noonli.negames.views.fragments.MainFragment
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
